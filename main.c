@@ -88,6 +88,12 @@ void searchStudent(Node * head);
 //统计学生人数
 void countStudent(Node * head);
 
+//保存学生数据
+void saveStudent(Node * head);
+
+//打印学生数据
+void printStudent(Node * head);
+
 
 int main()
 {
@@ -572,7 +578,7 @@ void modifyStudent(Node * head)
 }
 
 //查询学生信息函数
-void searchStudnet(Node * head)
+void searchStudent(Node * head)
 {
     FILE *file = fopen("C:/Users/91591/Desktop/C/Student Management System/stu.info", "r");
     if(file == NULL)
